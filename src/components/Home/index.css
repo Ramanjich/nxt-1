@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.home-container {
+  height: 100vh;
+  font-family: Roboto;
+}
+
+.clothes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+
+.home-image {
+  height: 400px;
+  width: 500px;
+}
+.para {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #64748b;
+}
+.description-container {
+  width: 50%;
+}
+.heading {
+  width: 50%;
+}
+.shop-btn {
+  border: none;
+  background-color: #0967d2;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
